@@ -1,4 +1,4 @@
-﻿# Recession-Based Karst Development Classes and Their Hydrogeochemical and Isotopic Signatures
+# Recession-Based Karst Development Classes and Their Hydrogeochemical and Isotopic Signatures
 
 **Dolomitic hard-rock aquifers of the northern Alborz, Iran**
 
@@ -43,7 +43,7 @@ Figure 1 (maps) was prepared in GIS software and is not produced by these script
 ```
 .
 |-- code/            Python scripts, one per manuscript figure
-|-- data/            input data (not included; see below)
+|-- data/            input data (CSV and shapefiles)
 |-- docs/            images used in this README
 |-- requirements.txt Python dependencies
 |-- LICENSE
@@ -85,9 +85,12 @@ Figure 1 (maps) was prepared in GIS software and is not produced by these script
 
 ## Data availability
 
-The field and laboratory data (discharge records, major-ion chemistry, stable
-isotopes and the study-area boundary) are not included in this repository.
-They are available from the corresponding author on reasonable request.
+All input data are in [`data/`](data/), with a full description of every file and column in [`data/README.md`](data/README.md):
+
+- `data/hydrodynamics/` monthly discharge of springs and qanats
+- `data/hydrochemistry/` major-ion chemistry, wet and dry seasons
+- `data/isotopes/` stable isotopes (&delta;<sup>18</sup>O, &delta;<sup>2</sup>H)
+- `data/gis/` study-area boundary and geological map (shapefiles)
 
 ## Citation
 

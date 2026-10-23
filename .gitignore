@@ -1,4 +1,4 @@
-﻿# Python
+# Python
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
@@ -6,16 +6,8 @@ __pycache__/
 venv/
 
 # Data and generated outputs (kept out of the repository)
-data/*
-!data/README.md
 *.xlsx
 *.xls
-*.csv
-*.shp
-*.shx
-*.dbf
-*.prj
-*.cpg
 *.lyr
 *.tif
 *.pdf
@@ -30,3 +22,12 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# published data (tidy copies made by tidy_data.py)
+!data/**
+!data/**/*.csv
+!data/**/*.shp
+!data/**/*.shx
+!data/**/*.dbf
+!data/**/*.prj
+!data/**/*.cpg
